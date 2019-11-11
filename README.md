@@ -6,7 +6,7 @@ A primer definition:
 
 >$ eugener set templates_source https://gogs.target.to.it/repo.git
 
->$ eugener set templates_localfolder ~/.eugener
+~~>$ eugener set templates_localfolder ~/.eugener~~
 
 >$ eugener get templates_version
 
@@ -35,6 +35,15 @@ templates:
         ],
         source_folder: "subfolder_name_of_tilde_dot_eugener_one_level"
     }
- ]
+ ],
+ lastUpdate: a Date()
 }
 ```
+
+
+## todos (by steps)
+
+1. set an example template-repo (github repo)
+2. download repo in target folder (default)
+3. ~~`eugener set templates_localfolder` has to do with something else, I do not know: OMIT~~
+4. just use git clone for templates
