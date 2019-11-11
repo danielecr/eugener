@@ -1,0 +1,26 @@
+{
+  "name": "eugener",
+  "version": "1.0.0",
+  "description": "at the End Use GENERify and simple template management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielecr/eugener.git"
+  },
+  "keywords": [
+    "generify",
+    "templates"
+  ],
+  "author": "Daniele Cruciani <daniele@smartango.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielecr/eugener/issues"
+  },
+  "homepage": "https://github.com/danielecr/eugener#readme",
+  "dependencies": {
+    "generify": "^3.0.3"
+  }
+}
